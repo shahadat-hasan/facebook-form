@@ -31,12 +31,12 @@
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
     
 }
-.input-fill{
-    border: 2px solid #ccc;       
-    background-color: #fff;      
+.input-fill{    
+    background-color: lightgray;      
+    border: none;
     padding: 10px;        
     border-radius: 4px;
-    width:224px;
+    width:226px;
 }
 input::placeholder{
     padding: 5px;
@@ -46,34 +46,34 @@ label{
     color:rgba(0, 0, 0, 0.726);
 }
 #date-input{
-    border: 2px solid #ccc;       
-    background-color: #fff;      
+    background-color: lightgray;      
+    border: none;      
     padding: 10px;        
     border-radius: 4px;
-    width:476px;
+    width:477px;
 }
 .gender{
     display: flex;
-    gap: 45px;
+    gap: 50px;
 }
 #gender{
     padding:10px 30px;
-    border: 2px solid #ccc;       
-    background-color: #fff;
+    background-color: lightgray;      
+    border: none;
     border-radius: 4px;
 }
 #phone{
     width: 476px;
     padding: 10px;
-    border: 2px solid #ccc;       
-    background-color: #fff; 
+    background-color: lightgray;      
+    border: none; 
     border-radius: 4px;
 }
 #email{
     width: 476px;
     padding: 10px;
-    border: 2px solid #ccc;       
-    background-color: #fff; 
+    background-color: lightgray;      
+    border: none; 
     border-radius: 4px;
 }
 .fb-descp{
