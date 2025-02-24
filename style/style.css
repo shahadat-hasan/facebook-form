@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+.roboto-regular {
+    font-family: "Roboto", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.facebook__title{
+    font-size: 4rem;
+    color:#29487D;
+}
+.text-center{
+    text-align: center;
+    margin-top: 10px;
+}
+.heading-title{
+    font-size: 2rem;
+    margin: 0px;
+}
+.heading-descp{
+    color: grey;
+    font-size: 1.2rem;
+}
+.form-container{
+    max-width:500px;
+    background-color: white;
+    margin: auto;
+    padding:20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    
+}
+.input-fill{
+    border: 2px solid #ccc;       
+    background-color: #fff;      
+    padding: 10px;        
+    border-radius: 4px;
+    width:224px;
+}
+input::placeholder{
+    padding: 5px;
+    font-size: 16px;
+}
+label{
+    color:rgba(0, 0, 0, 0.726);
+}
+#date-input{
+    border: 2px solid #ccc;       
+    background-color: #fff;      
+    padding: 10px;        
+    border-radius: 4px;
+    width:476px;
+}
+.gender{
+    display: flex;
+    gap: 45px;
+}
+#gender{
+    padding:10px 30px;
+    border: 2px solid #ccc;       
+    background-color: #fff;
+    border-radius: 4px;
+}
+#phone{
+    width: 476px;
+    padding: 10px;
+    border: 2px solid #ccc;       
+    background-color: #fff; 
+    border-radius: 4px;
+}
+#email{
+    width: 476px;
+    padding: 10px;
+    border: 2px solid #ccc;       
+    background-color: #fff; 
+    border-radius: 4px;
+}
+.fb-descp{
+    color:rgb(104, 102, 102);
+}
+.btn-center{
+    text-align: center;
+}
+.btn{
+    padding: 10px 80px;
+    border: none;
+    border-radius: 5px;
+    background-color: green;
+    font-size: 1.5rem;
+    color:white;
+    font-weight: 600;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(6, 173, 6);
+}
